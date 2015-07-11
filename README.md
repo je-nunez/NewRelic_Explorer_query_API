@@ -16,9 +16,12 @@ API:
 
 # Note:
 
-The New Relic API Key to do remote queries of samples taken by New Relic
-agents and stored in New Relic has a distinct value than the New Relic
-License Key.
+The `New Relic API Key` is different from the `New Relic License Key` for
+a same account. The License Key is what the New Relic agents use to
+determine the account to which upload the collected measures, whereas the
+API Key is to do remote queries of samples stored in New Relic.
+
+To obtain the New Relic API Key associated to your account, refer to:
 
      https://docs.newrelic.com/docs/apis/rest-api-v2/requirements/api-key#viewing
 
